@@ -96,6 +96,7 @@ def remove_dup_ben(strs):
         j = i + 1
         while j < len(strs):
             # j does not advance, next element falls back to j after pop
+            # if it satisfies condition, it is deleted as well
             if str(strs[i]) == str(strs[j]):
                 strs.pop(j)
             # index j only advances if strs[j] does not match strs[i]

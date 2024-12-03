@@ -16,7 +16,7 @@ def longest_prefix(arr):
             # if p1 and p2 don't match, then the char must be different, return
             if i == len(str) or pointer_two != pointer_one:
                 return result
-        # if p1 matches p2 in every string and is not yet out of range
+        # if p1 matches p2 in every string and is not yet out of range on each string, append to result
         result.append(pointer_one)
     return result
 
