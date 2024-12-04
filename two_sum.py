@@ -1,7 +1,7 @@
 a1 = [1,2,3,5]
 a2 = [4,3,7,6]
 
-# O(n) solution
+# O(n) solution, returns indicies
 def two_sum(arr, target):
     for i in range(len(arr)):
         p1 = arr[i]
@@ -18,3 +18,6 @@ def two_sum(arr, target):
 
 print(two_sum(a1, 5))
 print(two_sum(a2, 7))
+
+# 0(1) HASHMAP SOLUTION
+
