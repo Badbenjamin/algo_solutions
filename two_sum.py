@@ -14,5 +14,7 @@ def two_sum(arr, target):
                 j += 1
     return []
 
+
+
 print(two_sum(a1, 5))
 print(two_sum(a2, 7))
