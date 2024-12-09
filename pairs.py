@@ -15,6 +15,7 @@ def pairs(k, arr):
 # "diff" is current number + target, since ex(3-1=2 or 2+1=3) 3 is current num, but also diff
 # [1,5,3,4,2] = arr
 # [3,7,5,6,4] = diffs (num + target(2))
+# iterate through arr, checking hash map for diffs
 
 # ARRAY SHOULD BE SORTED
 # BECAUSE WE ARE ALWAYS LOOKIND BACK INTO HASHMAP OF PREV DIFFS AND COMPARING TO CURRENT
